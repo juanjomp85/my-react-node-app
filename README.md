@@ -29,4 +29,4 @@ Una aplicación web creada con React para el frontend y Node.js/Express para el 
 
 ## Estructura del proyecto
 
-my-react-node-app/ │ ├── server/ # Código del backend │ ├── node_modules/ │ ├── index.js # Archivo principal del servidor │ └── package.json # Dependencias del servidor │ └── client/ # Código del frontend ├── node_modules/ ├── public/ ├── src/ └── package.json # Dependencias del cliente
+```my-react-node-app/ │ ├── server/ # Código del backend │ ├── node_modules/ │ ├── index.js # Archivo principal del servidor │ └── package.json # Dependencias del servidor │ └── client/ # Código del frontend ├── node_modules/ ├── public/ ├── src/ └── package.json # Dependencias del cliente´´´
