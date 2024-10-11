@@ -27,6 +27,20 @@ Una aplicación web creada con React para el frontend y Node.js/Express para el 
 6. Accede a la aplicación en tu navegador:
    - http://localhost:3000
 
-## Estructura del proyecto
+## Estructura del Proyecto
 
-```my-react-node-app/ │ ├── server/ # Código del backend │ ├── node_modules/ │ ├── index.js # Archivo principal del servidor │ └── package.json # Dependencias del servidor │ └── client/ # Código del frontend ├── node_modules/ ├── public/ ├── src/ └── package.json # Dependencias del cliente´´´
+\```
+my-react-node-app/
+│
+├── server/                 # Código del backend
+│   ├── node_modules/
+│   ├── index.js            # Archivo principal del servidor
+│   └── package.json        # Dependencias del servidor
+│
+└── client/                 # Código del frontend
+    ├── node_modules/
+    ├── public/
+    ├── src/
+    └── package.json        # Dependencias del cliente
+\```
+
