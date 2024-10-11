@@ -1,19 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ProductList from './ProductList';
+import ProductDetail from './ProductDetail';
 
 function App() {
-  const [message, setMessage] = useState('');
-
-  useEffect(() => {
-    fetch('http://localhost:5000/api')
-      .then((response) => response.json())
-      .then((data) => setMessage(data.message));
-  }, []);
-
   return (
-    <div>
-      <h1>Message from server:</h1>
-      <p>{message}</p>
-    </div>
+    <Router>
+      <div className="App">
+        <h1>Tienda Online</h1>
+        <Routes>
+          <Route path="/" element={<ProductList />} />
+          <Route path="/products/:id" element={<ProductDetail />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
